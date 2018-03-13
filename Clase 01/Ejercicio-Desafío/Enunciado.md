@@ -6,8 +6,9 @@
    - Pie de página.
    - Secciones y articulos.
 
-## Construir el esqueleto de una WEB semánticamente correcta, utilizando las etiquetas vistas, intentando reproducir la estructura del siguiente mockup. Y utilizando información del siguiente articulo: https://es.wikipedia.org/wiki/PlayStation_4 (Duracion : 30 min)
+## Construir el esqueleto de una WEB semánticamente correcta
+
+   - Utilizar las etiquetas vistas según corresponda, intentando reproducir la estructura del mockup de ejemplo. Y utilizando información del siguiente articulo: https://es.wikipedia.org/wiki/PlayStation_4
 
 
-
-![](./mockUp.png)
+![Mockup de referencia](./mockup.png)
