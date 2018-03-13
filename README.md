@@ -1,4 +1,4 @@
-# Curso de Diseñador Web - Camada 2955 💾
+# Curso de Diseñador Web - Camada 2955 🎨  💾
 
 Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos, por cada una les voy a agregar una carpeta con el número de la clase y adentro van a encontrar, las siguientes sub carpetas:
 
