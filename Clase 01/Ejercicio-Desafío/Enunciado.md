@@ -8,7 +8,7 @@
 
 ## Construir el esqueleto de una WEB semánticamente correcta
 
-   - Utilizar las etiquetas vistas según corresponda, intentando reproducir la estructura del mockup de ejemplo. Y utilizando información del siguiente articulo: https://es.wikipedia.org/wiki/PlayStation_4
+   - Utilizar las etiquetas vistas según corresponda, intentando reproducir la estructura del mockup de ejemplo y utilizando información del siguiente articulo [Wikipedia play 4](https://es.wikipedia.org/wiki/PlayStation_4) 
 
 
 ![Mockup de referencia](./mockup.png)
