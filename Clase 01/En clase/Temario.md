@@ -19,6 +19,7 @@
 
    ```html
    <h1> a <h6>
+   <a>
    <br/>
    <div>
    <span>
