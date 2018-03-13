@@ -8,7 +8,7 @@ Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos
 
 - **Desafío**: La resolución hecha por mi del desafío que tiene para resolver en casa, normalmente esta resolución la explico y la subo al comienzo de la clase siguiente.
 
-Las mejores páginas para ver documentación y consultar sobre cosas de HTML, CSS, JavaScript o jQuery son [w3schools](https://www.w3schools.com/) y [MDN - Mozilla Developer Network](https://developer.mozilla.org/es/). Después a medida que las vayamos viendo voy a ir subiendo algunas más.
+Las mejores páginas para ver documentación y consultar sobre cosas de HTML, CSS, JavaScript o jQuery son [w3schools](https://www.w3schools.com/) y [MDN - Mozilla Developer Network](https://developer.mozilla.org/es/). Después a medida que vayamos viendo otros temas voy a ir subiendo algunas más.
 
 Cada vez que actualice la info les voy a avisar por Slack, pero el repositorio va a ser siempre el mismo para que no sea un lío. 🤓
 
