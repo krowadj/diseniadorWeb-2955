@@ -17,20 +17,20 @@
    - Elementos de línea
    - Etiquetas basicas
 
-   ```html
-      <h1> a <h6>
-      <br/>
-      <div>
-      <span>
-    ```
+```html
+<h1> a <h6>
+<br/>
+<div>
+<span>
+```
     - Nuevas etiquetas HTML5
-    
-    ```html
-      <section>
-      <nav>
-      <article>
-      <aside>
-      <main>
-      <header>
-      <footer>
-    ```
+
+```html
+<section>
+<nav>
+<article>
+<aside>
+<main>
+<header>
+<footer>
+```
