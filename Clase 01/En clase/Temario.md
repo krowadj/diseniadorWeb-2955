@@ -15,16 +15,22 @@
    - Atributos de las etiquetas
    - Elementos de bloque
    - Elementos de línea
-   - Etiquetas basicas 
-      * <h1> a <h6>
-      * <br/>
-      * <div>
-      * <span>
+   - Etiquetas basicas
+
+   ```html
+      <h1> a <h6>
+      <br/>
+      <div>
+      <span>
+    ```
     - Nuevas etiquetas HTML5
-      * <section>
-      * <nav>
-      * <article>
-      * <aside>
-      * <main>
-      * <header>
-      * <footer>
+    
+    ```html
+      <section>
+      <nav>
+      <article>
+      <aside>
+      <main>
+      <header>
+      <footer>
+    ```
