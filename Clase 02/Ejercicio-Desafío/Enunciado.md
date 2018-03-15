@@ -7,13 +7,13 @@
 ## Una tabla
 
    - La tabla debe ser como la siguiente imagen
-      * ![Tabla de referencia](./tabla.png)
+   ![Tabla de referencia](./tabla.png)
 
 ## Una imagen
 
    - La imgen tiene que llevar al sitio de coderhouse al hacer click en ella. 
       * `https://www.coderhouse.com/`
-      * ![Imagen de referencia](./logo.png)
+   ![Imagen de referencia](./logo.png)
 
 ## Un formulario
 
