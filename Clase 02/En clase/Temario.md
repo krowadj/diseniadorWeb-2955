@@ -51,4 +51,9 @@
       - Checkbox
     - Select
     
+## Imagenes
+   
+    ```html
+    <img>
+    ```
     
