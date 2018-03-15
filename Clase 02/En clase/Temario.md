@@ -25,19 +25,9 @@
    <tr>
    <td>
    <th>
-   <span>
    ```
-   - Nuevas etiquetas HTML5
-
-   ```html
-   <section>
-   <nav>
-   <article>
-   <aside>
-   <main>
-   <header>
-   <footer>
-   ```
+   - Colspan
+   - Rowspan
 
 ## Formularios
 
@@ -53,7 +43,7 @@
     
 ## Imagenes
    
-    ```html
-    <img>
-    ```
+   ```html
+   <img>
+   ```
     
