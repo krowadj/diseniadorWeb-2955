@@ -1,0 +1,7 @@
+p{
+  color: red;
+}
+
+div[class='para1'] p{
+  color: green;
+}
