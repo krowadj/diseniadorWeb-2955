@@ -1,0 +1,116 @@
+html{
+  color: rgb(98, 98, 98);
+
+}
+
+#logo {
+  height: 150px;
+  width: 200px;
+}
+
+hr{
+  border:0;
+}
+#linea_logo{
+  border-top: 0.3rem dotted rgb(9, 123, 164);
+}
+
+#busqueda{
+  margin-right: -6px;
+  padding: 0px;
+}
+
+#opciones{
+  width: 30px;
+  height: 30px;
+  background-color: rgb(50, 54, 60);
+}
+
+#img1{
+  width: 300px;
+  height: 200px;
+}
+
+/* LISTAS */
+
+ul li{
+  text-transform: uppercase;
+}
+
+.sin_punto{
+  list-style: none;
+}
+
+.con_punto{
+  list-style: initial;
+}
+
+.separador{
+  border-top: 1px solid rgb(65, 65, 65);
+}
+
+.negra{
+color:black
+}
+
+.derecha{
+  text-align: right;
+}
+.imagenes_abajo{
+  width: 500px;
+  height: 250px;
+
+}
+
+#imagenes_2{
+  margin: auto 200px;
+}
+
+.social{
+  background: rgb(185, 185, 185);
+  padding: 15px 7px;
+
+}
+
+footer a{
+  color:white;
+
+}
+footer{
+  padding: 10px;
+  color: white;
+  background: rgb(71, 71, 71);
+}
+
+
+#news{
+  display: inline;
+}
+
+#form_abajo1{
+  display:inline;
+}
+.newsletter{
+  display:inline;
+}
+
+.social_logo{
+  float:right;
+  display: inline;
+}
+.social_logo *{
+  width: 30px;
+  border-radius:40%;
+}
+
+#formulario{
+  display: inline;
+}
+#enviar{
+  background: rgb(5, 160, 181);
+  color:white;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+
+}
