@@ -1,0 +1,72 @@
+html {
+	font-size: 62.5%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+
+	background-color: grey;
+}
+
+p {
+	margin: 0;
+	word-spacing: 0.2rem;
+}
+
+.root {
+	background-color: red;
+	margin: 50px;
+	padding: 20px 30px;
+}
+
+.column {
+	padding: 5px;
+	border: skyblue 1px solid;
+	width: 45%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	float: left;
+}
+
+.column2 {
+	padding: 5px;
+	border: skyblue 1px solid;
+	width: calc(50% - 4rem);
+	margin-left: 2rem;
+	margin-right: 2rem;
+	float: left;
+}
+
+.cleaner {
+	clear: both;
+}
+
+.container {
+	height: 100px;
+	background-color: red;
+	overflow-y: scroll;
+}
+
+.circle {
+	width: 2rem;
+	height: 2rem;
+	float: left;
+	margin-left: 1rem;
+	background-color: red;
+	border: red 1px solid;
+	padding-left: 0.5rem;
+	padding-top: 0.3rem;
+	border-radius: 50%;
+}
+
+.circle i {
+	color: blue;
+}
+
+.social-media {
+	padding: 5rem;
+}

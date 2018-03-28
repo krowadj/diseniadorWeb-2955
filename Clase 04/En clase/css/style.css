@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900');
+
+/* a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+} */
+
+/* a:visited {
+	color: green;
+} */
+
+/* p {
+	font-size: 2rem;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.testText {
+	letter-spacing: 1.2rem;
+	word-spacing: 2rem;
+	line-height: 5rem;
+} */
+
+/* .upperCase li{
+
+} */
+
+/* .upper-case li {
+	text-transform: uppercase;
+}
+
+.lower-case li {
+	text-transform: lowercase;
+}
+
+.capitalize li {
+	text-transform: capitalize;
+} */
+
+html {
+	font-size: 62.5%;
+	font-family: 'Roboto';
+}
+
+.container {
+	border-bottom-style: solid;
+	border-bottom-color: blue;
+	border-bottom-width: 0.2rem;
+	border-left-style: dashed;
+	border-left-color: red;
+	border-left-width: 0.4rem;
+	text-align: center;
+	background-color: yellow;
+}
+
+.container2 {
+	margin-top: 1rem;
+	border-style: solid;
+	border-color: chartreuse;
+	border-width: 0.6rem;
+	text-align: right;
+	background-color: rgba(0, 222, 120, 0.7);
+}
+
+.container3 {
+	margin-top: 1rem;
+	border: yellow solid 0.2rem;
+	text-align: justify;
+}
+
+/* background-image: url('../img/pato.jpg');
+background-repeat: no-repeat;
+background-position: 50% 50%;
+ */
+
+/* body {
+	background: red url('../img/pato.jpg') no-repeat 50% 50%;
+	height: 100vh;
+} */
+
+/* p {
+	font-size: 5rem;
+} */
+
+/* .animals li {
+	list-style-image: url('../img/pato.jpg');
+}
+
+.fruits li {
+	list-style-type: square;
+}
+
+.order li {
+	list-style-type: upper-latin;
+} */
+
+.robotoLight {
+	font-weight: 300;
+}
+.robotoSuperbold {
+	font-weight: 100;
+}
+i {
+	color: blue;
+}
