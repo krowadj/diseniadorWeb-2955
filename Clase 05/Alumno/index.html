@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="title-header">BANDA</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">La banda</a>
+      <a href="#history">Historia</a>
+      <a href="#discography">Discografía</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <section id="about">
+        <h1 id="titulo">La banda</h1>
+        <article>
+          <div class="column">
+            <h2 class="cantante">Cantante 1</h2>
+            <p class="biografia">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In consequatur
+              fuga quia totam. Mollitia ipsum commodi quidem minima officiis sed
+              repudiandae assumenda quia molestias, praesentium accusantium dolorem
+              deleniti adipisci doloribus?</p>
+          </div>
+          <div class="column">
+            <h2 class="cantante">Cantante 2</h2>
+            <p class="biografia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, vero
+              eius dolores possimus eaque laboriosam quidem, doloribus nostrum officiis
+              vel corrupti alias voluptatem quam, ab in quaerat unde magni reiciendis.</p>
+          </div>
+          <div class="column">
+            <h2 class="cantante">Cantante 3</h2>
+            <p class="biografia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum minus
+              id esse at, alias necessitatibus voluptatem accusantium minima facilis
+              quasi dolorem possimus fuga ipsa recusandae consequatur quaerat beatae
+              distinctio exercitationem!</p>
+          </div>
+          <div class="clear"></div>
+        </article>
+      </section>
+      <section id="discography">
+        <h1>Discografía</h1>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Album</th>
+              <th>Tapa</th>
+              <th>Canciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2000</td>
+              <td>Nombre de disco</td>
+              <td>
+                <img src="img/img3.jpg" alt="Tapa de disco">
+              </td>
+              <td>
+                <ol class="lista1">
+                  <li>Canción 1</li>
+                  <li>Canción 2</li>
+                  <li>Canción 3</li>
+                </ol>
+              </td>
+            </tr>
+            <tr>
+              <td>2001</td>
+              <td>Nombre de disco</td>
+              <td>
+                <img src="img/img2.jpg" alt="Tapa de disco">
+              </td>
+              <td>
+                <ol class="lista1">
+                  <li>Canción 1</li>
+                  <li>Canción 2</li>
+                  <li>Canción 3</li>
+                </ol>
+              </td>
+            </tr>
+            <tr>
+              <td>2002</td>
+              <td>Nombre de disco</td>
+              <td>
+                <img src="img/img1.jpg" alt="Tapa de disco">
+              </td>
+              <td>
+                <ol class="lista2">
+                  <li>Canción 1</li>
+                  <li>Canción 2</li>
+                  <li>Canción 3</li>
+                </ol>
+              </td>
+            </tr>
+            <tr>
+              <td>2003</td>
+              <td>Nombre de disco</td>
+              <td>
+                <img src="img/img4.jpg" alt="Tapa de disco">
+              </td>
+              <td>
+                <ol class="lista2">
+                  <li>Canción 1</li>
+                  <li>Canción 2</li>
+                  <li>Canción 3</li>
+                </ol>
+              </td>
+            </tr>
+            <tr>
+              <td>29</td>
+              <td>Nombre de disco</td>
+              <td>
+                <img src="img/img3.jpg" alt="Tapa de disco">
+              </td>
+              <td>
+                <ol class="lista1">
+                  <li>Canción 1</li>
+                  <li>Canción 2</li>
+                  <li>Canción 3</li>
+                </ol>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="contact">
+        <h4>Contacto</h4>
+        <form>
+          <label for="firstName">
+            Nombre
+            <input type="text" name="firstName" id="firstName">
+          </label>
+          <label for="lastName">
+            Apellido
+            <input type="text" name="lastName" id="lastName">
+          </label>
+          <div>
+            <h4> Genéro</h4>
+            <label for="male">
+              Masculino
+              <input type="radio" name="gender" id="male" value="male">
+            </label>
+            <label for="female">
+              Femenino
+              <input type="radio" name="gender" id="female" value="female">
+            </label>
+            <label for="other">
+              Otro
+              <input type="radio" name="gender" id="other" value="other">
+            </label>
+          </div>
+          <div>
+            <select name="country" id="country" required>
+              <option value="">País de residencia</option>
+              <option value="AR">Argentina</option>
+              <option value="CH">Chile</option>
+              <option value="UR">Uruguay</option>
+              <option value="MX">México</option>
+            </select>
+          </div>
+
+          <input type="reset">
+          <input type="submit">
+        </form>
+      </section>
+  </main>
+  <footer class="">
+    <span>Banda - 2018</span>
+    <a href="termofuse.html">Term of use</a>
+    <span>Band name</span>
+  </footer>
+</body>
+
+</html>

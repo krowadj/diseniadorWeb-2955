@@ -1,0 +1,53 @@
+html {
+  background: rgb(0, 0, 0, 0.7);
+}
+
+* {
+  font: arial;
+  color: black;
+}
+
+p {
+  color: red;
+}
+
+#title-header,
+#titulo {
+  /* word-spacing: 1rem; */
+  letter-spacing: 1rem;
+}
+
+.lista1 li {
+  font-size: 2em;
+  color: green;
+}
+
+.lista2 li {
+  font-size: 2em;
+  color: blue;
+}
+
+table {
+  color: violet;
+}
+
+form label {
+  color: violet;
+}
+
+footer {
+  font-size: 1em;
+}
+
+img {
+  width: 200px;
+}
+
+.clear {
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 33%;
+}
