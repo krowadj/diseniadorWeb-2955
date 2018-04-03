@@ -4,6 +4,133 @@
 }
 
 html {
-	font-size: 62.3%;
+	font-size: 62.5%;
 	font-family: sans-serif;
+}
+
+/* body {
+	padding: 5rem;
+} */
+
+p {
+	font-size: 4rem;
+}
+
+/* SOCIAL */
+
+/* .circle {
+	height: 3rem;
+	width: 3rem;
+	background-color: grey;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 0;
+	cursor: pointer;
+	margin: 1rem;
+	right: 0;
+	z-index: 1;
+} */
+
+.circle2 {
+	height: 3rem;
+	width: 3rem;
+	background-color: red;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 0;
+	cursor: pointer;
+	margin: 1rem;
+	right: 2rem;
+	z-index: 3;
+}
+
+.circle3 {
+	height: 3rem;
+	width: 3rem;
+	background-color: green;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 0;
+	cursor: pointer;
+	margin: 1rem;
+	right: 4rem;
+	z-index: 1;
+}
+
+div i {
+	position: absolute;
+	left: 1.064rem;
+	top: 1.02rem;
+}
+
+/* HEADER */
+
+header {
+	height: 10rem;
+	background-color: rgba(0, 0, 0, 1);
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+nav {
+	float: right;
+	display: block;
+	line-height: 8rem;
+	margin-right: 3rem;
+}
+
+.main-nav li {
+	color: white;
+	font-size: 2.4rem;
+	list-style: none;
+	display: inline-block;
+	min-width: 5rem;
+	margin: 1rem;
+	position: relative;
+}
+
+.secondary-nav {
+	position: absolute;
+	display: none;
+	top: 9rem;
+	left: 0;
+	color: white;
+	background-color: red;
+}
+
+.main-nav li:hover .secondary-nav {
+	display: block;
+}
+
+/* MAIN */
+
+main {
+	margin-top: 10rem;
+	padding: 5rem;
+}
+
+/* FOOTER */
+
+.social-container {
+	margin-left: auto;
+	width: 22rem;
+}
+
+.circle {
+	height: 5rem;
+	width: 5rem;
+	background-color: grey;
+	border-radius: 50%;
+	position: relative;
+	cursor: pointer;
+	margin: 1rem;
+	z-index: 1;
+	display: inline-block;
+}
+
+.circle i {
+	position: absolute;
+	left: 1.5rem;
+	top: 1.5rem;
 }
