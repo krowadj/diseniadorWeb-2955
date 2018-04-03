@@ -1,68 +1,76 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,900');
 
+/* GENERAL */
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
 html {
-	font-size: 62.5%;
-	font-family: 'Roboto';
-	color: rgb(102, 0, 204);
+	font-size: 14px;
+	font-size: 62.3%;
+	font-family: sans-serif;
 }
 
 a {
 	text-decoration: none;
+	color: inherit;
+}
+
+section {
+	padding: 0 10rem;
+}
+
+body {
+	font-size: 14px;
 	font-size: 1.4rem;
-	color: white;
 }
 
 h1 {
-	text-transform: uppercase;
-	font-size: 3.6rem;
-}
-
-h2,
-h3,
-h4 {
-	text-transform: uppercase;
+	font-size: 24px;
 	font-size: 2.4rem;
+	color: #fbfbfb;
+	text-align: center;
 }
 
-p {
-	font-size: 1.6rem;
+h4 {
+	font-size: 18px;
+	font-size: 1.8rem;
 }
 
-nav {
-	font-size: 1.6rem;
-	color: grey;
-	text-transform: uppercase;
+.cleaner {
+	clear: both;
 }
 
-.dividerDotted {
-	border-bottom: lightblue 0.5rem dotted;
+/* ABOUT */
+
+#about {
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 }
 
-.divider {
-	border-bottom: rgb(102, 0, 204) 0.5rem solid;
+.column {
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	padding: 5rem;
 }
 
-.noDots {
-	list-style: none;
+.column h4 {
+	margin: 3rem;
 }
 
-.textLeft p {
-	text-align: left;
+.circle-image {
+	width: 20rem;
+	height: 20rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54);
 }
 
-.textRight p {
-	text-align: right;
-}
-
-.bold {
-	font-weight: bold;
-}
-
-.footerDark {
-	background-color: rgb(102, 0, 204);
-}
-
-.footerDark div {
-	font-size: 1.4rem;
-	color: white;
+.circle-image img {
+	width: 100%;
+	height: 100%;
 }
