@@ -112,6 +112,10 @@ main {
 
 /* FOOTER */
 
+footer {
+	background-color: lightgray;
+}
+
 .social-container {
 	margin-left: auto;
 	width: 22rem;
