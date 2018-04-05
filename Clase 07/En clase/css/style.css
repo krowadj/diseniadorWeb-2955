@@ -1,0 +1,183 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+
+body {
+	font-size: 1.4rem;
+}
+
+h1 {
+	font-size: 2.4rem;
+}
+
+p {
+	font-size: 2.4rem;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* HEADER */
+
+header {
+	height: 10rem;
+	background-color: black;
+	color: white;
+	padding: 3.6rem;
+}
+
+nav {
+	height: 8rem;
+	background-color: grey;
+	color: white;
+	padding: 2.6rem;
+	position: sticky;
+	top: 0;
+}
+
+nav ol {
+	margin-left: auto;
+}
+
+nav ol li {
+	display: inline-block;
+	border-radius: 1rem;
+	color: black;
+	padding: 1rem;
+	cursor: pointer;
+	background-color: white;
+}
+
+/* SOCIAL */
+
+.circle {
+	height: 25rem;
+	width: 25rem;
+	background-color: grey;
+	float: left;
+	/* border-radius: 50%; */
+	position: relative;
+	cursor: pointer;
+	margin: 10rem;
+	z-index: 1;
+	display: inline-block;
+	overflow: hidden;
+	/* transition: transform 2s linear 1s; */
+	/* transition: height 300ms ease-in, width 300ms ease-in; */
+}
+
+/* .circle:hover {
+	transform: scale(1, 2);
+	transition: transform 1s linear;
+} */
+
+/* .circle:hover {
+	transform: translate(10rem, -10rem);
+} */
+
+/* .circle:hover {
+	height: 25rem;
+	width: 25rem;
+} */
+
+/* .circle:hover i {
+	opacity: 1;
+} */
+
+/* .circle:hover i {
+	transform: translate(-25rem, 0);
+}
+
+.circle:hover div {
+	transform: translate(-31rem, 0);
+} */
+
+.circle i {
+	position: absolute;
+	left: 6rem;
+	top: 5rem;
+	/* opacity: 0; */
+	/* transition: transform 2s linear; */
+	/* transition: opacity 2s linear; */
+	animation: transition_apple 5s infinite ease;
+}
+
+.animation-container {
+	/* background-color: red; */
+}
+
+.cleaner {
+	clear: both;
+}
+
+.float-left {
+	width: 20rem;
+	position: absolute;
+	animation: transition_text 5s infinite ease;
+	left: 31rem;
+	top: 5rem;
+}
+
+/* @keyframes text_transition {
+	0% {
+		color: red;
+		transform: rotate(0);
+	}
+	50% {
+		color: green;
+		transform: rotate(180deg);
+	}
+	100% {
+		color: blue;
+		transform: rotate(360deg);
+	}
+} */
+
+@keyframes transition_apple {
+	0% {
+		transform: translate(0, 0);
+	}
+	50% {
+		transform: translate(-25rem, 0);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@keyframes transition_text {
+	0% {
+		transform: translate(0, 0);
+	}
+	50% {
+		transform: translate(-31rem, 0);
+	}
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+label {
+	display: block;
+	width: 30rem;
+	height: 30rem;
+	background-color: blue;
+	border-radius: 5rem;
+}
+#checkbox {
+	display: none;
+}
+
+#checkbox:checked + label div {
+	background-color: red;
+}
