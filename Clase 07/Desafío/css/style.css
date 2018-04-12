@@ -1,0 +1,257 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 14px;
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+
+body {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+h1 {
+	font-size: 24px;
+	font-size: 2.4rem;
+	color: #fbfbfb;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+section {
+	padding: 0 10rem;
+}
+
+h4 {
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+
+.cleaner {
+	clear: both;
+}
+
+/* HEADER */
+
+header {
+	height: 10rem;
+	/* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%); */
+	background: rgba(0, 0, 0, 1);
+	padding: 0 10rem;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54);
+}
+
+.divider {
+	height: 2rem;
+}
+
+.sticky-header {
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	height: 6rem;
+	padding: 0 10rem;
+	z-index: 10000;
+	background: rgba(0, 0, 0, 0.65);
+	/* background-color: rgba(0, 0, 0, 0.87); */
+	/* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54); */
+}
+
+nav ol {
+	display: flex;
+}
+
+.main-li {
+	list-style-type: none;
+	cursor: pointer;
+	margin: 0.5rem;
+	display: flex;
+	font-size: 1.6rem;
+	color: #fbfbfb;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.4);
+	position: relative;
+	border-radius: 0.5rem;
+	height: 4rem;
+	min-width: 15rem;
+}
+
+.header-title {
+	flex: 1;
+	font-size: 2.4rem;
+	color: #fbfbfb;
+	letter-spacing: 0.6rem;
+	font-variant-ligatures: no-common-ligatures;
+	-webkit-font-variant-ligatures: no-common-ligatures;
+	text-align: left;
+}
+
+.main-li:hover .dropdown {
+	display: block;
+}
+
+.dropdown {
+	position: absolute;
+	display: none;
+	background-color: #fbfbfb;
+	min-width: 15rem;
+	top: 4rem;
+	padding: 0;
+	left: 0;
+}
+
+.dropdown li {
+	list-style-type: none;
+	color: rgba(0, 0, 0, 0.87);
+	text-align: center;
+	padding: 1.2rem;
+}
+
+.dropdown li:hover {
+	color: #fbfbfb;
+	background-color: rgba(0, 0, 0, 0.87);
+}
+
+/* HOME */
+
+#home {
+	background-image: url('../img/home/home.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 70rem;
+	margin-top: -8rem;
+	padding: 0;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54);
+}
+
+#home article {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+.arrow-down {
+	color: rgba(0, 0, 0, 0.87);
+	height: 10rem;
+	width: 10rem;
+	cursor: pointer;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 50%;
+	margin: 2rem;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54);
+	opacity: 1;
+	transition: transform 0.5s ease;
+}
+
+.arrow-down:hover {
+	transform: scale(1.1);
+	transition: transform 0.8s ease;
+}
+
+/* ABOUT */
+
+#about {
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+#about:hover article div:nth-child(1) .circle-image {
+	animation-name: zoom-in-out;
+	animation-duration: 2s;
+}
+
+#about:hover article div:nth-child(2) .circle-image {
+	animation-name: zoom-in-out;
+	animation-delay: 2s;
+	animation-duration: 2s;
+}
+
+#about:hover article div:nth-child(3) .circle-image {
+	animation-name: zoom-in-out;
+	animation-delay: 4s;
+	animation-duration: 2s;
+}
+
+@keyframes zoom-in-out {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.column {
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	padding: 5rem;
+}
+
+.column h4 {
+	margin: 3rem;
+}
+
+.circle-image {
+	width: 20rem;
+	height: 20rem;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: auto;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54);
+	transition: transform 0.5s ease;
+}
+
+.circle-image img {
+	width: 100%;
+	height: 100%;
+}
+
+/* HISTORY */
+
+#history {
+	background-image: url('../img/history/history.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 80rem;
+	padding: 0;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54);
+	font-weight: bold;
+}
+
+#history article {
+	padding: 5rem 10rem;
+}
+
+#history p {
+	color: rgba(0, 0, 0, 0.7);
+	text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.37);
+	font-size: 2.4rem;
+	word-spacing: 1rem;
+	line-height: 3.4rem;
+}

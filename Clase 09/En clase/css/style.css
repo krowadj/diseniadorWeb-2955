@@ -1,0 +1,45 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 14px;
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+
+body {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+h1 {
+	font-size: 24px;
+	font-size: 2.4rem;
+	color: #fbfbfb;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* FLEX BOX */
+
+.flex-container {
+	background-color: dodgerblue;
+	margin: 5rem;
+}
+
+.flex-item {
+	background: tomato;
+	border: solid 1rem lightgreen;
+	width: 20%;
+	height: 15rem;
+	color: white;
+	font-size: 2.4rem;
+}

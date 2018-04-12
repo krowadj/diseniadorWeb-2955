@@ -31,7 +31,8 @@ a {
 
 header {
 	height: 10rem;
-	background-color: black;
+	background: linear-gradient(to top, grey, black);
+
 	color: white;
 	padding: 3.6rem;
 }
