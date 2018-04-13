@@ -1,20 +1,362 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Clase 09 - Ejercicio</title>
-  <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase 09 - Ejercicio</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <div class="flex-container">
-        <div class="flex-item"><span>1</span></div>
-        <div class="flex-item"><span>2</span></div>
-        <div class="flex-item"><span>3</span></div>
-        <div class="flex-item"><span>4</span></div>
-        <div class="flex-item"><span>5</span></div>
+    <!-- <div class="flex-container">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+        <div class="flex-item">
+            <span>4</span>
+        </div>
+        <div class="flex-item">
+            <span>5</span>
+        </div>
+        <div class="flex-item">
+            <span>6</span>
+        </div>
     </div>
-  
+
+    <div class="flex-container row-reverse">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+        <div class="flex-item">
+            <span>4</span>
+        </div>
+        <div class="flex-item">
+            <span>5</span>
+        </div>
+        <div class="flex-item">
+            <span>6</span>
+        </div>
+    </div>
+
+    <div class="flex-container column">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+        <div class="flex-item">
+            <span>4</span>
+        </div>
+        <div class="flex-item">
+            <span>5</span>
+        </div>
+        <div class="flex-item">
+            <span>6</span>
+        </div>
+    </div>
+
+    <div class="flex-container column-reverse">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+        <div class="flex-item">
+            <span>4</span>
+        </div>
+        <div class="flex-item">
+            <span>5</span>
+        </div>
+        <div class="flex-item">
+            <span>6</span>
+        </div>
+    </div>
+
+    <div class="flex-container flex-wrap">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+        <div class="flex-item">
+            <span>4</span>
+        </div>
+        <div class="flex-item">
+            <span>5</span>
+        </div>
+        <div class="flex-item">
+            <span>6</span>
+        </div>
+    </div>
+
+    <div class="flex-container flex-no-wrap">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+        <div class="flex-item">
+            <span>4</span>
+        </div>
+        <div class="flex-item">
+            <span>5</span>
+        </div>
+        <div class="flex-item">
+            <span>6</span>
+        </div>
+    </div>
+
+    <div class="flex-container center">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+
+    </div>
+
+    <div class="flex-container flex-start">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+
+    </div>
+
+    <div class="flex-container column flex-end big-container">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+
+    </div>
+
+    <div class="flex-container space-between">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+
+    </div>
+
+
+    <div class="flex-container align-center center">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+
+    </div>
+
+    <div class="flex-container stretch center">
+        <div class="flex-item">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item order5">
+            <span>1</span>
+        </div>
+        <div class="flex-item order5 ">
+            <span>2</span>
+        </div>
+        <div class="flex-item order1 ">
+            <span>3</span>
+        </div>
+
+    </div>
+
+    <div class="flex-container column-reverse">
+        <div class="flex-item order5">
+            <span>1</span>
+        </div>
+        <div class="flex-item order5 ">
+            <span>2</span>
+        </div>
+        <div class="flex-item order1 ">
+            <span>3</span>
+        </div>
+
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item flex-grow2">
+            <span>1</span>
+        </div>
+        <div class="flex-item flex-grow1">
+            <span>2</span>
+        </div>
+
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item flex-shrink">
+            <span>1</span>
+        </div>
+        <div class="flex-item">
+            <span>2</span>
+        </div>
+        <div class="flex-item">
+            <span>3</span>
+        </div>
+        <div class="flex-item">
+            <span>4</span>
+        </div>
+        <div class="flex-item">
+            <span>5</span>
+        </div>
+        <div class="flex-item">
+            <span>6</span>
+        </div>
+
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item flex-grow2 flex-container no-margin center align-center">
+            <span>1</span>
+        </div>
+        <div class="flex-item flex-grow1">
+            <span>2</span>
+        </div>
+
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item flex-grow1"></div>
+
+        <div class="flex-item flex-grow2 flex-container no-margin background1 "></div>
+        <div class="flex-item flex-grow1"></div>
+
+    </div>
+
+    <div class="flex-container">
+        <div class="flex-item flex-grow1"></div>
+
+        <div class="flex-item flex-grow2 flex-container no-margin background2 ">
+            <img src="./img/animalsCover.jpg" alt="">
+        </div>
+        <div class="flex-item flex-grow1"></div>
+
+    </div>
+
+    <div class="flex-container">
+            <div class="flex-item">
+                <span>1</span>
+            </div>
+            <div class="flex-item">
+                <span>2</span>
+            </div>
+            <div class="flex-item">
+                <span>3</span>
+            </div>
+            <div class="flex-item">
+                <span>4</span>
+            </div>
+            <div class="flex-item align-center">
+                <span>5</span>
+            </div>
+            <div class="flex-item">
+                <span>6</span>
+            </div>
+    
+        </div> -->
+
+    <header>
+
+    </header>
+
+
+    <main>
+        <section>
+            <article>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, provident. Iure
+                    quo, dolor quod eos earum accusantium, voluptas ad assumenda
+                    tempore ea voluptates beatae vitae voluptatibus porro ipsa sunt
+                    autem!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, provident. Iure
+                    quo, dolor quod eos earum accusantium, voluptas ad assumenda
+                    tempore ea voluptates beatae vitae voluptatibus porro ipsa sunt
+                    autem!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, provident. Iure
+                    quo, dolor quod eos earum accusantium, voluptas ad assumenda
+                    tempore ea voluptates beatae vitae voluptatibus porro ipsa sunt
+                    autem!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, provident. Iure
+                    quo, dolor quod eos earum accusantium, voluptas ad assumenda
+                    tempore ea voluptates beatae vitae voluptatibus porro ipsa sunt
+                    autem!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, provident. Iure
+                    quo, dolor quod eos earum accusantium, voluptas ad assumenda
+                    tempore ea voluptates beatae vitae voluptatibus porro ipsa sunt
+                    autem!
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer></footer>
 </body>
+
 </html>
