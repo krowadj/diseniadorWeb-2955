@@ -5,17 +5,113 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Clase 00 - Ejercicio</title>
+  <title>Clase 10 - Ejercicio</title>
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"
+  integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
+  crossorigin="anonymous">
 </head>
 
 <body>
+        <div class="sticky-header">
+        
+             <label class="ham-button" for="hidden-button">
+                    <i class="fas fa-bars"></i>
+             </label>
+                <h1 class="header-title">
+                    Pink floyd
+                </h1>
+                <nav id="main-nav">
+                    <ol>
+                        <a href="#about">
+                            <li class="main-li">
+                                La banda
+                                <ol class="dropdown">
+                                    <li>
+                                        <span>David Guilmour</span>
+                                    </li>
+                                    <li>Syd Barrett</li>
+                                    <li>Roger Waters</li>
+                                </ol>
+                            </li>
+                        </a>
+                        <a href="#history">
+                            <li class="main-li">
+                                Historia
+                            </li>
+                        </a>
+                        <a href="#discography">
+                            <li class="main-li">
+                                Discografía
+                                <ol class="dropdown">
+                                    <li>
+                                        <span>Animals</span>
+                                    </li>
+                                    <li>The wall</li>
+                                    <li>The dark side of the moon</li>
+                                </ol>
+                            </li>
+                        </a>
+                        <a href="#contact">
+                            <li class="main-li">
+                                Contacto
+                            </li>
+                        </a>
+                    </ol>
+                    <div class="cleaner"></div>
+                </nav>
+                <input type="checkbox" name="" id="hidden-button" hidden>
+                <nav id="secondary-nav">
+        
+                        <ol>
+                                <label class="close-button" for="hidden-button">
+                                        <i class="fas fa-times"></i>
+                                 </label>
+                                <a href="#about">
+                                    <li class="secondary-li">
+                                        La banda
+                                        <!-- <ol class="secondary-dropdown">
+                                            <li>
+                                                <span>David Guilmour</span>
+                                            </li>
+                                            <li>Syd Barrett</li>
+                                            <li>Roger Waters</li>
+                                        </ol> -->
+                                    </li>
+                                </a>
+                                <a href="#history">
+                                    <li class="secondary-li">
+                                        Historia
+                                    </li>
+                                </a>
+                                <a href="#discography">
+                                    <li class="secondary-li">
+                                        Discografía
+                                        <!-- <ol class="dropdown">
+                                            <li>
+                                                <span>Animals</span>
+                                            </li>
+                                            <li>The wall</li>
+                                            <li>The dark side of the moon</li>
+                                        </ol> -->
+                                    </li>
+                                </a>
+                                <a href="#contact">
+                                    <li class="secondary-li">
+                                        Contacto
+                                    </li>
+                                </a>
+                            </ol>
+            
+                </nav>
+
+            </div>
   <section id="about">
     <article>
         <div class="column">
 
             <div class="circle-image">
-                <img src="./img/about/david-guilmour.png" alt="">
+                <img src="./img/about/david-guilmour.png" alt="David Guilmour">
             </div>
             <h4>David Guilmour</h4>
             <p>Lorem ipsum dolor sit, amet consect etur adipisicing elit. Ratione
@@ -27,7 +123,7 @@
         <div class="column">
 
             <div class="circle-image">
-                <img src="./img/about/sid-barrett.jpg" alt="">
+                <img src="./img/about/sid-barrett.jpg" alt="Sid Barrett">
             </div>
             <h4>Syd Barrett</h4>
             <p>Lorem ipsum dolor sit, amet consect etur adipisicing elit. Ratione
@@ -38,7 +134,7 @@
         <div class="column">
 
             <div class="circle-image">
-                <img src="./img/about/roger-waters.jpg" alt="">
+                <img src="./img/about/roger-waters.jpg" alt="Roger Waters">
             </div>
             <h4>Roger Waters</h4>
             <p>Lorem ipsum dolor sit, amet consect etur adipisicing elit. Ratione
@@ -49,7 +145,27 @@
         <div class="cleaner"></div>
     </article>
 </section>
-
+<!-- <div class="grid">
+    <header class="grid-item1">
+        <span>1</span>
+    </header>
+    <div class="grid-item2">
+        <span>2</span>
+    </div>
+    <div class="grid-item3">
+        <span>3</span>
+    </div>
+    <div class="grid-item4">
+        <span>4</span>
+    </div> -->
+    <!-- <div class="grid-item5">
+        <span>5</span>
+    </div>
+    <div class="grid-item6">
+        <span>6</span>
+    </div> -->
+    
+<!-- </div> -->
 </body>
 
 </html>
