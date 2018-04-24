@@ -186,31 +186,45 @@
           </tbody>
         </table>
       </section>
-
       <section id="contacto">
-        <div class="container">
-          <form id="contact" action="" method="post">
-            <h3>Contacto</h3>
-            <fieldset>
-              <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-            </fieldset>
-            <fieldset>
-              <input placeholder="Your Email Address" type="email" tabindex="2" required>
-            </fieldset>
-            <fieldset>
-              <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
-            </fieldset>
-            <fieldset>
-              <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-            </fieldset>
-            <fieldset>
-              <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-            </fieldset>
-            <fieldset>
-              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-            </fieldset>
-          </form>
-        </div>
+        <h4>Contacto</h4>
+        <form>
+          <label for="firstName">
+            Nombre
+            <input type="text" name="firstName" id="firstName">
+          </label>
+          <label for="lastName">
+            Apellido
+            <input type="text" name="lastName" id="lastName">
+          </label>
+          <div>
+            <h4> Genéro</h4>
+            <label for="male">
+              Masculino
+              <input type="radio" name="gender" id="male" value="male">
+            </label>
+            <label for="female">
+              Femenino
+              <input type="radio" name="gender" id="female" value="female">
+            </label>
+            <label for="other">
+              Otro
+              <input type="radio" name="gender" id="other" value="other">
+            </label>
+          </div>
+          <div>
+            <select name="country" id="country" required>
+              <option value="">País de residencia</option>
+              <option value="AR">Argentina</option>
+              <option value="CH">Chile</option>
+              <option value="UR">Uruguay</option>
+              <option value="MX">México</option>
+            </select>
+          </div>
+
+          <input type="reset">
+          <input type="submit">
+        </form>
       </section>
   </main>
   <footer id="footer">
