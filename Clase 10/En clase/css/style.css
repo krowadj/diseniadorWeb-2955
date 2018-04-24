@@ -33,6 +33,154 @@ p {
 	font-size: 1.6rem;
 }
 
+/* HEADER */
+
+header {
+	height: 10rem;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+	padding: 0 10rem;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	/* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54); */
+}
+
+.divider {
+	height: 2rem;
+}
+
+.sticky-header {
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	height: 6rem;
+	padding: 0;
+	z-index: 10000;
+	background-color: rgba(0, 0, 0, 0.87);
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.54);
+}
+
+.ham-button {
+	color: white;
+	width: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.close-button {
+	color: white;
+	height: 6rem;
+	width: 6rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#main-nav {
+	display: none;
+}
+
+#secondary-nav {
+	position: fixed;
+	display: none;
+	top: 0;
+	left: 0;
+	color: white;
+	z-index: 10000;
+	background-color: rgba(0, 0, 0, 1);
+	width: 80%;
+	height: 100vh;
+}
+
+#secondary-nav ol {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#secondary-nav li {
+	list-style-type: none;
+	height: 5rem;
+	display: flex;
+	align-items: center;
+}
+
+#secondary-nav li:hover {
+	cursor: pointer;
+	background-color: grey;
+}
+
+#hidden-button:checked + #secondary-nav {
+	display: block;
+}
+
+#hidden-button {
+	/* display: none; */
+}
+
+nav ol {
+	display: flex;
+	font-size: 2.4rem;
+}
+
+.main-li {
+	list-style-type: none;
+	cursor: pointer;
+	margin: 0.5rem;
+	display: flex;
+	font-size: 1.6rem;
+	color: #fbfbfb;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.4);
+	position: relative;
+	border-radius: 0.5rem;
+	height: 4rem;
+	min-width: 15rem;
+}
+
+.header-title {
+	flex: 1;
+	font-size: 2.4rem;
+	color: #fbfbfb;
+	letter-spacing: 0.6rem;
+	font-variant-ligatures: no-common-ligatures;
+	-webkit-font-variant-ligatures: no-common-ligatures;
+	text-align: left;
+}
+
+.main-li:hover .dropdown {
+	display: block;
+}
+
+.dropdown {
+	position: absolute;
+	display: none;
+	background-color: #fbfbfb;
+	min-width: 15rem;
+	top: 4rem;
+	padding: 0;
+	left: 0;
+}
+
+.dropdown li {
+	list-style-type: none;
+	color: rgba(0, 0, 0, 0.87);
+	text-align: center;
+	padding: 1.2rem;
+}
+
+.dropdown li:hover {
+	color: #fbfbfb;
+	background-color: rgba(0, 0, 0, 0.87);
+}
+
 /* ABOUT */
 
 #about {
@@ -41,10 +189,8 @@ p {
 }
 
 .column {
-	width: 33.3%;
-	float: left;
 	text-align: center;
-	padding: 5rem;
+	padding: 3rem;
 }
 
 .column h4 {
@@ -52,8 +198,8 @@ p {
 }
 
 .circle-image {
-	width: 20rem;
-	height: 20rem;
+	width: 15rem;
+	height: 15rem;
 	border-radius: 50%;
 	overflow: hidden;
 	margin: auto;
@@ -67,3 +213,105 @@ p {
 }
 
 /* MEDIA QUERIES */
+
+/* @media (min-width: 25em) {
+	.column {
+		width: 50%;
+		float: left;
+		padding: 3rem;
+	}
+	.circle-image {
+		width: 20rem;
+		height: 20rem;
+	}
+}
+
+@media (min-width: 60em) {
+	.column {
+		width: 33.3%;
+	}
+} */
+
+/* MEDIA QUERIES GRID */
+
+@media (min-width: 25em) {
+	#about article {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-areas: "image1 image2" "image3 image3";
+	}
+	.column:nth-child(1) {
+		grid-area: image1;
+	}
+	.column:nth-child(2) {
+		grid-area: image2;
+	}
+	.column:nth-child(3) {
+		grid-area: image3;
+	}
+	.circle-image {
+		width: 20rem;
+		height: 20rem;
+	}
+	#secondary-nav,
+	.ham-button {
+		display: none;
+	}
+	#main-nav {
+		display: block;
+	}
+}
+
+@media (min-width: 60em) {
+	#about article {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-areas: "image1 image2 image3";
+	}
+}
+
+/* GRID */
+
+span {
+	font-size: 3rem;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	grid-template-rows: 5rem 10rem 10rem 5rem;
+	grid-template-areas: "header header" "nav main" "nav main" "footer footer";
+	/* grid-gap: 1rem;
+	grid-column-gap: 10rem;
+	grid-row-gap: 1rem; */
+	/* justify-items: start; */
+	/* justify-items: center; */
+}
+
+.grid-item1 {
+	grid-area: header;
+	/* align-items: center; */
+	background-color: red;
+}
+
+.grid-item2 {
+	grid-area: nav;
+	background-color: blue;
+}
+
+.grid-item3 {
+	grid-area: main;
+	background-color: green;
+}
+
+.grid-item4 {
+	grid-area: footer;
+	background-color: violet;
+}
+
+.grid-item5 {
+	background-color: yellow;
+}
+
+.grid-item6 {
+	background-color: orange;
+}
