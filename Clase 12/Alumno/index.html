@@ -2,151 +2,399 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="estilos.css">
-  <title>Clase 04 - Desafío</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Clase 11 - Ejercicio</title>
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <div id="container">
-    <header>
-      <div id="contiene_logo">
-        <img id="logo" src="img/logo.jpg" alt="">
-      </div>
-      <hr id="linea_logo">
-      <nav id="navegacion">
-        <ul>
-          <li class="sin_punto">Pagina principal</li>
-          <li class="sin_punto">Nuestras especies</li>
-          <ul>
-            <li class="con_punto">T-rex</li>
-            <li class="con_punto">Triceratops</li>
-          </ul>
-          <li class="sin_punto">Atracciones del parque</li>
-        </ul>
-      </nav>
 
-      <form action="POST" id="form_abajo">
-        <input type="text" placeholder="Buscar" id="busqueda">
-        <select id="opciones" name="opciones">
-          <option id="select_opcion1" value="Opcion 1"></option>
-          <option id="select_opcion2" value="Opcion 2"></option>
-        </select>
-      </form>
-      <div id="contiene_volver">
-        <a href="" id="volver">&#10096;&#10096;Volver a la pagina principal</a>
-      </div>
-    </header>
+	<header>
+		<div>
+			<img src="img/header-logo.png" alt="logotipo de la compañia">
+		</div>
 
+		<nav>
+			<ul>
+				<li>
+					<a href="#">home</a>
+				</li>
+				<li>
+					<a href="#">contact</a>
+				</li>
+			</ul>
+		</nav>
 
-    <section id="cuerpo">
+		<div class="cleaner"></div>
+	</header>
 
-      <h1>JURASSIC PARK GAME HISTORY</h1>
-      <img src="img/img1.jpeg" id="img1" alt="">
-      <div class="divloco">
-        <h2>NUESTRA HISTORIA</h2>
-        <hr class="separador">
-        <article>
+	<section class="contenedor-inicial">
+		<article class="wrapper">
+			<section class="servicios-destacados">
+				<article>
+					<img src="img/wid1.png" alt="description">
+					<h2>Speed Servers</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque rem, molestias</p>
+				</article>
 
-          <p>La historia del parque se remonta a los inicios de la década de 90, cuando
-            un visionario –de nombre John Hammond– encontró una forma de clonar dinosaurios
-            en base a su ADN. Pero, ¿de dónde se obtiene ADN de dinosaurio?
-            <br> Ya en aquel entonces existían los mosquitos y, tal como sucede con sus
-            herederos actuales, se alimentaban de sangre.
-            <br> Eventualmente un mosquito reposaba en el tronco de un árbol, y los árboles
-            pueden emanar una resina que las protege contra enfermedades o infestaciones
-            de insectos.
-            <br> Cuando esta resina se endurece, se produce una piedra fósil llamada
-            ámbar.
-            <br> Adentro de estas piedras, pudimos encontrar un mosquito conservado en
-            perfectas condiciones fósiles con sangre en su interior.
-            <br>
-            <span class="negra">De esta sangre prehistórica sale el ADN que dio lugar a nuestros parques
-              temáticos. Como CEO de InGen, Hammond lideró la idea de revivir dinosaurios.</span>
-            Dedicó su vida para brindar a la gente una experiencia nueva y emocionante, instando
-            a que el mundo haga realidad sus sueños y descubra una increíble aventura.
-          </p>
+				<article>
+					<img src="img/wid2.png" alt="description">
+					<h2>Hostro Services</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque rem, molestias</p>
+				</article>
 
-        </article>
-      </div>
-      <div class="divloco">
+				<article>
+					<img src="img/wid3.png" alt="description">
+					<h2>Live support</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque rem, molestias</p>
+				</article>
 
-        <h2>LA ISLA NUBLAR</h2>
-        <hr class="separador">
-        <article class="derecha">
-          <p>
-            En la
-            <span class="negra">Isla Nublar se montó Jurassic Park, un parque zoológico cuya atracción
-              son dinosaurios creados genéticamente.</span>
-            <br> Desafortunadamente, debido a un desperfecto técnico y un boicot interno
-            (de un ex-empleado de la empresa, de nombre Nedry Dennis), los dinosaurios
-            se soltaron y complicaron la apertura del parque.
-            <br> En su momento, Peter Ludlow -líder sucesor de InGen y sobrino de Hammond-,
-            analizó el costo de tener que demoler Parque Jurásico, pero las cifras
-            eran insolventables.
-          </p>
-        </article>
+				<article>
+					<img src="img/wid4.png" alt="description">
+					<h2>Get domain name</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque rem, molestias</p>
+				</article>
 
-      </div>
-      <div class="divloco">
-
-        <h2>LA ISLA SORNA</h2>
-        <hr class="separador">
-        <article class="derecha">
-          <p>
-            La Isla Sorna ―también conocida como la Zona B― es la segunda isla de la empresa
-            InGen que posee dinosaurios.
-            <br> Al contrario de la Isla Nublar,
-            <span class="negra">donde los dinosaurios estaban enjaulados con alambradas electrificadas
-              para ser exhibidos al público</span>, en la Isla Sorna estos se encuentran
-            en libertad.
-            <br> Su principal objetivo era la de oficializar de granja de producción
-            (a fin de reducir los costos que significan el proceso de clonación).
-          </p>
-        </article>
-      </div>
-
-      <div id="imagenes_2">
-        <img class="imagenes_abajo" src="img/img3.jpg" alt="">
-        <img class="imagenes_abajo" src="img/img2.jpeg" alt="">
-      </div>
-    </section>
+				<div class="cleaner"></div>
+			</section>
 
 
+			<!-- Los características de los servicios -->
+			<h2 class="subtitle">Hostro Services</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur nventore vitae minus, incidunt maiores
+				sunt eos, nisi possimus dolor omnis repudiandae reprehenderit.</p>
 
-    <div class="social">
+			<!-- Caracterísiticas izq -->
+			<section class="caracteristicas caract-izq">
+				<article>
+					<img src="img/ser1.png" alt="descripcion">
+					<h3>Retina Ready</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolores
+						quasi amet.</p>
+				</article>
 
-      <div class="newsletter">
+				<article>
+					<img src="img/ser2.png" alt="descripcion">
+					<h3>Esay Customize</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolores
+						quasi amet.</p>
+				</article>
 
-        <form id="formulario" action="index.html" method="post">
-          <p id="news">NEWSLETTER</p>
+				<article>
+					<img src="img/ser3.png" alt="descripcion">
+					<h3>Pixel perfect</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolores
+						quasi amet.</p>
+				</article>
+			</section>
 
-          <input type="text" name="email" value="" placeholder="email" id="email">
-          <input type="submit" name="submit" id="enviar" value="ENVIAR">
-        </form>
-      </div>
+			<!-- Imágene teléfono -->
+			<figure class="imagen-mitad">
+				<img src="img/iphone2.png" alt="celular">
+			</figure>
 
-      <div class="social_logo">
-        <img src="img/face.png" alt="">
-        <img src="img/tw.png" alt="">
-        <img src="img/insta.png" alt="">
-      </div>
+			<!-- Características der -->
+			<section class="caracteristicas caract-der">
+				<article>
+					<img src="img/ser4.png" alt="descripcion">
+					<h3>unlimited colors</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolores
+						quasi amet.</p>
+				</article>
+
+				<article>
+					<img src="img/ser5.png" alt="descripcion">
+					<h3>features</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolores
+						quasi amet.</p>
+				</article>
+
+				<article>
+					<img src="img/ser6.png" alt="descripcion">
+					<h3>Support today</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolores
+						quasi amet.</p>
+				</article>
+			</section>
+
+			<div class="cleaner"></div>
+		</article>
+
+		<div class="cleaner"></div>
+	</section>
 
 
-    </div>
-    <footer>
-      <p>2017 Shop For Gaming |
-        <br>
-        <a href="#">Terms of Use</a> |
-        <br>
-        <a href="#">Privacy Statment</a>
-      </p>
-    </footer>
+	<section class="contenedor-secundario">
+		<div class="cleaner"></div>
 
+		<article class="wrapper">
+			<h2>Pricing Tables</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
 
-  </div>
+			<section class="pricing-boxes">
+
+				<article class="box-price">
+					<table>
+						<!-- fila 1 -->
+						<tr>
+							<td colspan="2">
+								<h4>SMALL PACKAGE</h4>
+							</td>
+						</tr>
+						<!-- fila 2 -->
+						<tr>
+							<td colspan="2">
+								<h3>
+									<sup>$</sup>
+									<i>15</i>
+									<sup>.9</sup>
+								</h3>
+								<b>/month</b>
+							</td>
+						</tr>
+						<!-- fila 3 -->
+						<tr>
+							<td width="80%">
+								<span>Hard drive, GB</span>
+							</td>
+							<td width="20%">
+								<span class="blue-txt">2</span>
+							</td>
+						</tr>
+						<!-- fila 4 -->
+						<tr>
+							<td>
+								<span>Transfer, GB</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 5 -->
+						<tr>
+							<td>
+								<span>Data bases</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 6 -->
+						<tr>
+							<td>
+								<span>Dashboards</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 7 -->
+						<tr>
+							<td colspan="2">
+								<a href="#">SELECT PLAN</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="box-price">
+					<table>
+						<!-- fila 1 -->
+						<tr>
+							<td colspan="2">
+								<h4>SMALL PACKAGE</h4>
+							</td>
+						</tr>
+						<!-- fila 2 -->
+						<tr>
+							<td colspan="2">
+								<h3>
+									<sup>$</sup>
+									<i>15</i>
+									<sup>.9</sup>
+								</h3>
+								<b>/month</b>
+							</td>
+						</tr>
+						<!-- fila 3 -->
+						<tr>
+							<td width="80%">
+								<span>Hard drive, GB</span>
+							</td>
+							<td width="20%">
+								<span class="blue-txt">2</span>
+							</td>
+						</tr>
+						<!-- fila 4 -->
+						<tr>
+							<td>
+								<span>Transfer, GB</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 5 -->
+						<tr>
+							<td>
+								<span>Data bases</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 6 -->
+						<tr>
+							<td>
+								<span>Dashboards</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 7 -->
+						<tr>
+							<td colspan="2">
+								<a href="#">SELECT PLAN</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="box-price">
+					<table>
+						<!-- fila 1 -->
+						<tr>
+							<td colspan="2">
+								<h4>SMALL PACKAGE</h4>
+							</td>
+						</tr>
+						<!-- fila 2 -->
+						<tr>
+							<td colspan="2">
+								<h3>
+									<sup>$</sup>
+									<i>15</i>
+									<sup>.9</sup>
+								</h3>
+								<b>/month</b>
+							</td>
+						</tr>
+						<!-- fila 3 -->
+						<tr>
+							<td width="80%">
+								<span>Hard drive, GB</span>
+							</td>
+							<td width="20%">
+								<span class="blue-txt">2</span>
+							</td>
+						</tr>
+						<!-- fila 4 -->
+						<tr>
+							<td>
+								<span>Transfer, GB</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 5 -->
+						<tr>
+							<td>
+								<span>Data bases</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 6 -->
+						<tr>
+							<td>
+								<span>Dashboards</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 7 -->
+						<tr>
+							<td colspan="2">
+								<a href="#">SELECT PLAN</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<article class="box-price last">
+					<table>
+						<!-- fila 1 -->
+						<tr>
+							<td colspan="2">
+								<h4>SMALL PACKAGE</h4>
+							</td>
+						</tr>
+						<!-- fila 2 -->
+						<tr>
+							<td colspan="2">
+								<h3>
+									<sup>$</sup>
+									<i>15</i>
+									<sup>.9</sup>
+								</h3>
+								<b>/month</b>
+							</td>
+						</tr>
+						<!-- fila 3 -->
+						<tr>
+							<td width="80%">
+								<span>Hard drive, GB</span>
+							</td>
+							<td width="20%">
+								<span class="blue-txt">2</span>
+							</td>
+						</tr>
+						<!-- fila 4 -->
+						<tr>
+							<td>
+								<span>Transfer, GB</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 5 -->
+						<tr>
+							<td>
+								<span>Data bases</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 6 -->
+						<tr>
+							<td>
+								<span>Dashboards</span>
+							</td>
+							<td>
+								<span class="blue-txt">1</span>
+							</td>
+						</tr>
+						<!-- fila 7 -->
+						<tr>
+							<td colspan="2">
+								<a href="#">SELECT PLAN</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+
+				<div class="cleaner"></div>
+			</section>
+		</article>
+	</section>
 </body>
 
 </html>
