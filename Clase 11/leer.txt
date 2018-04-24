@@ -1,0 +1,4 @@
+Rompi todo al cambiar sass..
+
+Ver como hacer para que ande sass y con watch.. ver bien que es nodemon y como usarlo para sass
+
