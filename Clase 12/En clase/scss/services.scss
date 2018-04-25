@@ -1,0 +1,27 @@
+.margin-top-bottom {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.contenedor-inicial {
+	text-align: center;
+	h2 {
+		@extend .margin-top-bottom;
+		font-size: 2rem;
+	}
+	p {
+		@include marginBottomTop(2rem);
+		font-size: 1.4rem;
+		@if $theme == dark {
+			color: $secondary-color;
+		} @else if $theme == light {
+			background-color: grey;
+			color: red;
+		}
+	}
+	.servicios-destacados {
+		img {
+			@include scaleTransform(1.2);
+		}
+	}
+}

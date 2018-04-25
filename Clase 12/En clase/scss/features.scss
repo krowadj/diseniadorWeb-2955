@@ -1,0 +1,41 @@
+.caracteristicas {
+	// @each $background-color in blue, red, yellow {
+	// 	.background-#{$background-color} {
+	// 		background-color: $background-color;
+	// 		background-image: url('../img/' + $background-color + '.png');
+	// 		// background-image: url(../img/#{$background-color}.png);
+	// 	}
+	// }
+	article {
+		position: relative;
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		padding-left: 7rem;
+		text-align: left;
+		h3 {
+			padding-top: 1.5rem;
+		}
+		// @for $i from 1 to 4 {
+		// 	.text-#{$i} {
+		// 		font-size: $main-font-size * $i;
+		// 		background-color: blue;
+		// 	}
+		// }
+	}
+	@each $key, $value in $back-colors {
+		.background-#{$key} {
+			background-color: $value;
+		}
+		.text-#{$key} {
+			color: $value;
+		}
+	}
+}
+
+.test {
+	font-size: $secondary-font-size;
+	transition: $transition-time + $transition-type;
+}
