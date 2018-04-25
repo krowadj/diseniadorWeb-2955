@@ -1,0 +1,36 @@
+@mixin size($width,$height) {
+	width: $width;
+	height: $height;
+}
+
+@mixin marginBottomTop($value) {
+	margin-top: $value;
+	margin-bottom: $value;
+}
+
+@mixin scalePrefix($value) {
+	transform: scale($value);
+	-ms-transform: scale($value);
+	-webkit-transform: scale($value);
+	-moz-transform: scale($value);
+}
+
+@mixin transitionPrefix($value) {
+	transition: $value;
+	-webkit-transition: $value;
+	-moz-transition: $value;
+}
+
+@mixin clearFix() {
+	&:after {
+		display: block;
+		content: '';
+		clear: both;
+	}
+}
+@mixin scaleTransform($value) {
+	transition: transform 300ms linear;
+	&:hover {
+		@include scalePrefix($value);
+	}
+}
