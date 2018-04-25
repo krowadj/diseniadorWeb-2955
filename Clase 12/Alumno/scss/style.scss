@@ -4,7 +4,10 @@
 @import './services.scss';
 */
 
+@import 'var.scss';
 @import 'header.scss';
 @import 'footer.scss';
-@import 'general.scss';
+@import 'main.scss';
+@import 'table.scss';
+@import 'contact.scss';
 @import 'keyframes.scss';

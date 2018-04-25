@@ -1,12 +1,12 @@
 #title-header {
 	/* word-spacing: 1rem; */
 	letter-spacing: 1rem;
-	color: white;
+	color: rgb(136, 0, 125);
 }
 
 header {
 	//background: linear-gradient(to bottom, #005f5f, black);
-	background-color: #005f50;
+	background-color: rgb(157, 255, 0);
 	.logo {
 		display: flex;
 		margin-left: 3rem;
@@ -64,7 +64,7 @@ nav {
 		padding-left: 15px;
 		border-bottom: none;
 		&:hover {
-			background-color: #03332c;
+			background-color: rgb(157, 255, 0);
 		}
 		&:active {
 			background-color: #aaa;

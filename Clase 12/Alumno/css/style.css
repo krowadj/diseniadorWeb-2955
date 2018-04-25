@@ -6,10 +6,10 @@
 #title-header {
   /* word-spacing: 1rem; */
   letter-spacing: 1rem;
-  color: white; }
+  color: #88007d; }
 
 header {
-  background-color: #005f50; }
+  background-color: #9dff00; }
   header .logo {
     display: flex;
     margin-left: 3rem; }
@@ -55,7 +55,7 @@ nav {
     padding-left: 15px;
     border-bottom: none; }
     nav a:hover {
-      background-color: #03332c; }
+      background-color: #9dff00; }
     nav a:active {
       background-color: #aaa;
       color: #444;
@@ -75,43 +75,28 @@ footer {
     margin-right: 1rem; }
 
 html {
-  background-color: white; }
+  background: #3e94ec;
+  color: white;
+  font: arial;
+  box-sizing: border-box; }
   html img {
     width: 200px; }
 
-* {
-  font: arial;
-  color: black; }
-
-main #about1 .column {
+main #home {
   margin-top: 1rem;
-  float: left;
-  width: 33%; }
-  main #about1 .column p {
-    color: #4d4848; }
-  main #about1 .column .about {
+  display: flex;
+  justify-content: space-between; }
+  main #home .column .about {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    main #about1 .column .about p {
+    main #home .column .about p {
       text-align: center; }
 
 main #historia {
-  text-align: center; }
-
-main #discography table {
-  color: #4f4f50; }
-  main #discography table .lista1 li {
-    font-size: 2em;
-    color: gray; }
-  main #discography table .lista2 li {
-    font-size: 2em;
-    color: gray; }
-
-main #contacto {
-  border: 1px solid black; }
-  main #contacto form label {
-    color: black; }
+  text-align: center;
+  margin-top: 1rem;
+  color: black; }
 
 main .img300 {
   display: flex;
@@ -121,118 +106,156 @@ main .img300 {
   main .img300:hover {
     transform: scale(2); }
 
-main #contacto {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  font-size: 12px;
-  line-height: 30px;
-  color: #777;
-  background: #424147; }
+#discography {
+  font-family: "Roboto", helvetica, arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  /*** Table Styles **/ }
+  #discography h3 {
+    color: #fafafa;
+    font-size: 2.4rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    text-align: center; }
+  #discography .table-fill {
+    background: white;
+    border-radius: 3px;
+    border-collapse: collapse;
+    height: 320px;
+    margin: auto;
+    max-width: 600px;
+    padding: 5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite; }
+  #discography th {
+    color: #D5DDE5;
+    background: #1b1e24;
+    border-bottom: 4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 24px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle; }
+  #discography th:first-child {
+    border-top-left-radius: 3px; }
+  #discography th:last-child {
+    border-top-right-radius: 3px;
+    border-right: none; }
+  #discography tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 1px solid #C1C3D1;
+    color: #666B85;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.1); }
+  #discography tr:hover td {
+    background: #4E5066;
+    color: #FFFFFF;
+    border-top: 1px solid #22262e; }
+  #discography tr:first-child {
+    border-top: none; }
+  #discography tr:last-child {
+    border-bottom: none; }
+  #discography tr:nth-child(odd) td {
+    background: #EBEBEB; }
+  #discography tr:nth-child(odd):hover td {
+    background: #4E5066; }
+  #discography tr:last-child td:first-child {
+    border-bottom-left-radius: 3px; }
+  #discography tr:last-child td:last-child {
+    border-bottom-right-radius: 3px; }
+  #discography td {
+    background: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1; }
+    #discography td ol {
+      font-size: .9em; }
+  #discography td:last-child {
+    border-right: 0px; }
 
-main .container {
-  max-width: 400px;
-  width: 100%;
-  margin: 0 auto;
-  position: relative; }
-
-main #contact input[type="text"],
-main #contact input[type="email"],
-main #contact input[type="tel"],
-main #contact input[type="url"],
-main #contact textarea,
-main #contact button[type="submit"] {
-  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif; }
-
-main #contact {
-  background: #F9F9F9;
-  padding: 25px;
-  margin: 150px 0;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
-
-main #contact h3 {
-  display: block;
-  text-align: center;
-  font-size: 30px;
-  font-weight: 300;
-  margin-bottom: 10px; }
-
-main #contact h4 {
-  margin: 5px 0 15px;
-  display: block;
-  font-size: 13px;
-  font-weight: 400; }
-
-main fieldset {
-  border: medium none !important;
-  margin: 0 0 10px;
-  min-width: 100%;
-  padding: 0;
-  width: 100%; }
-
-main #contact input[type="text"],
-main #contact input[type="email"],
-main #contact input[type="tel"],
-main #contact input[type="url"],
-main #contact textarea {
-  width: 100%;
-  border: 1px solid #ccc;
-  background: #FFF;
-  margin: 0 0 5px;
-  padding: 10px; }
-
-main #contact input[type="text"]:hover,
-main #contact input[type="email"]:hover,
-main #contact input[type="tel"]:hover,
-main #contact input[type="url"]:hover,
-main #contact textarea:hover {
-  -webkit-transition: border-color 0.3s ease-in-out;
-  -moz-transition: border-color 0.3s ease-in-out;
-  transition: border-color 0.3s ease-in-out;
-  border: 1px solid #aaa; }
-
-main #contact textarea {
-  height: 100px;
-  max-width: 100%;
-  resize: none; }
-
-main #contact button[type="submit"] {
-  cursor: pointer;
-  width: 100%;
-  border: none;
-  background: #4CAF50;
-  color: #FFF;
-  margin: 0 0 5px;
-  padding: 10px;
-  font-size: 15px; }
-
-main #contact button[type="submit"]:hover {
-  background: #43A047;
-  -webkit-transition: background 0.3s ease-in-out;
-  -moz-transition: background 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out; }
-
-main #contact button[type="submit"]:active {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
-
-main .copyright {
-  text-align: center; }
-
-main #contact input:focus,
-main #contact textarea:focus {
-  outline: 0;
-  border: 1px solid #aaa; }
-
-main ::-webkit-input-placeholder {
-  color: #888; }
-
-main :-moz-placeholder {
-  color: #888; }
-
-main ::-moz-placeholder {
-  color: #888; }
-
-main :-ms-input-placeholder {
-  color: #888; }
+#contacto {
+  margin: 0px;
+  padding: .6rem 18rem;
+  color: black; }
+  #contacto #contact {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    background: #F9F9F9;
+    padding: 25px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
+    #contacto #contact h3 {
+      display: block;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 300;
+      margin: 10px; }
+    #contacto #contact fieldset {
+      border: medium none !important;
+      margin: 0 0 10px;
+      width: 100%; }
+    #contacto #contact input[type="text"],
+    #contacto #contact input[type="email"],
+    #contacto #contact input[type="tel"],
+    #contacto #contact input[type="url"],
+    #contacto #contact textarea {
+      width: 100%;
+      border: 1px solid #ccc;
+      background: #FFF;
+      padding: 0.5rem; }
+    #contacto #contact input[type="text"],
+    #contacto #contact input[type="email"],
+    #contacto #contact input[type="tel"],
+    #contacto #contact input[type="url"],
+    #contacto #contact textarea,
+    #contacto #contact button[type="submit"] {
+      font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif; }
+    #contacto #contact input[type="text"]:hover,
+    #contacto #contact input[type="email"]:hover,
+    #contacto #contact input[type="tel"]:hover,
+    #contacto #contact input[type="url"]:hover,
+    #contacto #contact textarea:hover {
+      -webkit-transition: border-color 0.3s ease-in-out;
+      -moz-transition: border-color 0.3s ease-in-out;
+      transition: border-color 0.3s ease-in-out;
+      border: 1px solid #aaa; }
+    #contacto #contact textarea {
+      height: 100px;
+      max-width: 100%;
+      resize: none; }
+    #contacto #contact button[type="submit"] {
+      cursor: pointer;
+      width: 100%;
+      border: none;
+      background: #4CAF50;
+      color: #FFF;
+      margin: 0 0 5px;
+      padding: 10px;
+      font-size: 15px; }
+    #contacto #contact button[type="submit"]:hover {
+      background: #43A047;
+      -webkit-transition: background 0.3s ease-in-out;
+      -moz-transition: background 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out; }
+    #contacto #contact button[type="submit"]:active {
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+    #contacto #contact input:focus,
+    #contacto #contact textarea:focus {
+      outline: 0;
+      border: 1px solid #aaa; }
 
 @keyframes rotar {
   to {
